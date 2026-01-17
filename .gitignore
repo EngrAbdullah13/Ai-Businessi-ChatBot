@@ -1,0 +1,60 @@
+# Environment variables - NEVER COMMIT THESE!
+.env
+.env.local
+.env.*.local
+
+# Database files - Contains user data
+*.db
+user_data.db
+chat_history.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Streamlit - NEVER COMMIT SECRETS!
+.streamlit/secrets.toml
+
+# User uploaded files (if you save them locally)
+uploads/
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
